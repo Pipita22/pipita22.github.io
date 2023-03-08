@@ -1,0 +1,78 @@
+
+body h2{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    padding: 90px 20px 0;
+}
+section#DatosPersonales {
+ background-color: rgb(184, 164, 202);
+ font-size: 18pt;
+ justify-content: space-between;
+
+}
+section#DatosPersonales h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section#DatosPersonales p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 3px thick black;
+    align-items: center;
+}
+section#DatosPersonales img{
+    justify-content: left;
+    border: 2px solid black
+}
+section#Estudios { 
+background-color:rgb(209, 161, 161) }
+
+section#Estudios {
+    font-size: 15pt;
+}
+section#ExperienciaLaboral {
+    background-color: rgb(253, 149, 111); 
+}
+section#ExperienciaLaboral {
+    font-size: 15pt;
+ }
+section#Idiomasyhabilidades legend {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+section#Idiomasyhabilidades li {
+font-size: 15pt;
+}
+section#Idiomasyhabilidades {
+    background-color: rgb(238, 162, 200);
+}
+header{
+    position: sticky;
+    height: 100px;
+    top: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: blanchedalmond;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    max-width: 992px;
+    position: fixed;
+}
+nav ul li{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px 10px;
+    background-color: lightblue;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.menu-link:hover {
+background-color: cornflowerblue;
+transition: 0.5s;
+}
+
